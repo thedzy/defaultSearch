@@ -20,7 +20,7 @@
 .PARAMETER engine
     "Google", "Bing", or "DuckDuckGo"
 .PARAMETER searchurl
-    A custom url.  Use "%s" in place of search termas.
+    A custom url.  Use "%s" in place of search terms.
     ex. https://www.google.nl/search?q=%s"
 .PARAMETER direct
     When using the Cortana search go direct to url and bypass bing (for credit in the search)

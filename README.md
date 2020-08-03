@@ -54,7 +54,7 @@ Set Cortana to use your default browser and your choice of search engine
         Accept wildcard characters?  false
 
     -searchurl <String>
-        A custom url.  Use "%s" in place of search termas.
+        A custom url.  Use "%s" in place of search terms.
         ex. https://www.google.nl/search?q=%s"
 
         Required?                    false
