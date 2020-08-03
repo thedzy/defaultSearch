@@ -19,6 +19,9 @@
     If the install switch is present, the script will install itself using its current location
 .PARAMETER engine
     "Google", "Bing", or "DuckDuckGo"
+.PARAMETER searchurl
+    A custom url.  Use "%s" in place of search termas.
+    ex. https://www.google.nl/search?q=%s"
 .PARAMETER direct
     When using the Cortana search go direct to url and bypass bing (for credit in the search)
     ex. https://www.bing.com/WS/redirect/?q=bing&url=aHR0cHM6Ly9lbi53aWt...
