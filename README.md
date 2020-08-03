@@ -27,7 +27,8 @@ Set Cortana to use your default browser and your choice of search engine
         Accept pipeline input?       true (ByValue)
         Accept wildcard characters?  false
 
-    -unisntall [<SwitchParameter>]
+    -uninstall [<SwitchParameter>]
+        If the uninstall switch is present, it will remove the defaultSearch as the deafault url handler
 
         Required?                    false
         Position?                    named
@@ -45,6 +46,7 @@ Set Cortana to use your default browser and your choice of search engine
         Accept wildcard characters?  false
 
     -engine <String>
+        Applies and stores when using the -install flag
         "Google", "Bing", or "DuckDuckGo"
 
         Required?                    false
@@ -54,6 +56,7 @@ Set Cortana to use your default browser and your choice of search engine
         Accept wildcard characters?  false
 
     -searchurl <String>
+        Applies and stores when using the -install flag
         A custom url.  Use "%s" in place of search terms.
         ex. https://www.google.nl/search?q=%s"
 
@@ -64,6 +67,7 @@ Set Cortana to use your default browser and your choice of search engine
         Accept wildcard characters?  false
 
     -direct [<SwitchParameter>]
+        Applies and stores when using the -install flag
         When using the Cortana search go direct to url and bypass bing (for credit in the search)
         ex. https://www.bing.com/WS/redirect/?q=bing&url=aHR0cHM6Ly9lbi53aWt...
         vs
